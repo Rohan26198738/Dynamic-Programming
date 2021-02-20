@@ -9,7 +9,7 @@ public class Fibonacci {
      * FIBONACCI NAIVE IMPLEMENTATION
      */
     public int naiveFib(int n) {
-        if (n < 2) { return 1; }
+        if (n <= 2) { return 1; }
         return naiveFib(n-1) + naiveFib(n-2);
     }
 
